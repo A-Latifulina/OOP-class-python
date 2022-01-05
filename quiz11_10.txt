@@ -1,0 +1,9 @@
+earthquakefile=open('earthquake_log.txt') #the variable earthquakeopen is set set to method open the txt file titled earthquake_log.txt
+location_list = [ ] # a list titled location_list is created
+quake_list = [ ] # a list titles quake_list is created
+for line in earthquakefile: # for each line in the file earthquake_log.txt
+    values = line.split() # on each line, the values are split by the default separator	
+    print (values[6], 'had', values[0], 'earthquake magnitude.') # print the 7th value 'had' the 1st value followed by the string 'earthquake magnitude'
+    magnitude= float (values[0]) # variable magnitude is assigned a float if the 1st value
+    quake_list.append ( magnitude) # the quake_list adds the magnitude value
+    location_list .append ( values[6]) #location list adds the 7th value
