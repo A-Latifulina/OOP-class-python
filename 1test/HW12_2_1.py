@@ -1,4 +1,3 @@
-
 def get_numbers():
     user_input = input()
     values = []
