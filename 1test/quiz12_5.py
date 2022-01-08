@@ -10,8 +10,7 @@ class Date:
              return 28
          else:
              return 31
-     def advance (self):
-          # not concerned if it wraps to the next year
+     def advance (self): # not concerned if it wraps to the next year
           self.day = self.day+ 1
           if self.day> self.days_in_month( ):
                self.month = self.month+ 1
