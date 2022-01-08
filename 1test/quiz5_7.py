@@ -1,5 +1,4 @@
 # finding commission 
-
 monthly_sales = int(input('Enter the amount of your monthly sales: ')) # 1
 
 print('Enter the amount of advanced pay,(less than $2000) or')
