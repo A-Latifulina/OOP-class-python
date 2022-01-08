@@ -1,4 +1,4 @@
-foods = 'fruit vegetables tea pretzels nuts'
+foods = 'fruit vegetables teas pretzels nuts'
 
 mylist = foods.split()
 print(mylist)
