@@ -8,7 +8,6 @@ def  count_times ( list  ) :
     return count
 
 #main part of the program
-
 name = input('Enter name of teacher')
 list = ['Dr.Hill', 'Dr.Courtney', 'Dr.Mosley', 'Dr.Scharff','Dr.Hill']
 number = count_times(list)
