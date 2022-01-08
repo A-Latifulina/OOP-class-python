@@ -8,7 +8,7 @@ def shampoo_instructions(num_cycles):
         while (N <= num_cycles):
             print(N, ': Lather and rinse.')
             N += 1
-        print('Done.')
+        print('Done!')
 
 user_cycles = int(input())
 shampoo_instructions(user_cycles)
