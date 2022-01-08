@@ -6,5 +6,4 @@ for i in range(count - 1):
             if list[j] < list[minSubscript]:
                 minSubscript = j
 print(minSubscript)
-         #   else:
-          #      swap(list,i, minSubscript)
+         #   else: swap(list,i, minSubscript)
