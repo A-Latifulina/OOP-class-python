@@ -1,6 +1,3 @@
-#Assume a file containing a series of integers is named numbers.txt  and
-#exists in your working folder.
-
 #This  program calls two functions , one to read in the numbers from the
 #data file into a  list ( one number on a line ) and one function to
 #print out the list.  I am writing the main part of the program.  You are
