@@ -3,8 +3,6 @@
 #display the message, 'Hello James', Otherwise display the message
 #' No James'
 
-#Start with this
-
 names =['Eric', 'Shavvon','Kamenka' ]
 
 if 'James' in names:
