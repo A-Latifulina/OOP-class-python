@@ -1,9 +1,5 @@
-#Write a function called get_average that matches up with this code.  The
-#function accepts the list of integers and returns the average.  You may
-#NOT use short cuts such as using the sum( )  function.  You are only
-#responsible for writing the code for the function.  I wrote the code for
-#the main part of the program.
-
+#The function accepts the list of integers and returns the average.  You may
+#not use short cuts such as using the sum( ) function.
 
 def get_average(mylist):
     sum = 0
@@ -13,11 +9,7 @@ def get_average(mylist):
     average = sum / (len(mylist))
     return average
 
-
 #main part of the program
-
-mylist=[2,7,4,5,89,43,65,78,35,54,97]    #  assume that there are more numbers
-
+mylist=[2,7,4,5,89,43,65,78,35,54,97] s
 average=get_average(mylist)
-
 print('The average is ', average)  
