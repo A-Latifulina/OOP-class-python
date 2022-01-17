@@ -1,3 +1,4 @@
+#string formats pt 2
 cookie_amount = int(input('Enter the amount of cookies you want to bake '))
 
 sugar_cup = cookie_amount * 1.5/48
