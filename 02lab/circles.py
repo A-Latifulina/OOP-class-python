@@ -1,5 +1,4 @@
-# Working with circles
-# Area calculation
+# Working with circle area calculation
 radius = float(input('What is the radius of your circle '))
 
 area = 3.14 * radius**2
