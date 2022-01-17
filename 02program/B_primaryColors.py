@@ -1,5 +1,3 @@
-#Primary_Colors
-
 primary_one = input('Enter a primary color ')
 primary_two = input('Enter another primary color ')
 
