@@ -1,3 +1,4 @@
+#string formats pt 3
 acme_shares = int(input('Enter the amount of Acme shares bought '))
 initial_investment = acme_shares * 40
 stockbroker_commission_buy = initial_investment * .03
