@@ -1,5 +1,3 @@
-# the phone call problem
-
 start_time = int(input("What is the starting time of your phone call? "))
 length_min = int(input("What is the length of your phone call in minutes? "))
 
