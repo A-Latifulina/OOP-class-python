@@ -1,4 +1,4 @@
-#Enter color to find out complimentary color
+#Enter a color to find the complimentary color
 color = input('Enter a primary or secondary color to find out its complimentary color ')
 
 if color == 'red':
