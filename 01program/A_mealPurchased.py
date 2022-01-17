@@ -1,3 +1,4 @@
+#string formats
 food_charge = int(input('Enter charge for the food '))
 food_tip = food_charge * .18
 food_sales_tax = food_charge * .07
