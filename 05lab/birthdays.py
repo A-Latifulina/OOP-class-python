@@ -5,7 +5,7 @@ print('3  for changing a birthday of an existing name', '4 for deleting a name a
 print ('5 for printing out the dictionary')
 
 while choice != 10:
-    user_val = int(input('Enter choice # '))  #(1)
+    user_val = int(input('Enter choice # '))
     if choice == 1:
         name = input('Enter a name: ')
         print(birthdays.get(name, 'not found'))
@@ -13,9 +13,9 @@ while choice != 10:
         name = input('Enter a name: ')
         bday = input ('Enter a birthday: ')
         if name not in birthdays:
-            birthdays[name] = bday #(2) 
+            birthdays[name] = bday
         else:
-            print ('That entry already exists')
+            print('That entry already exists')
     elif choice == 3:
         name = input('Enter a name: ')
         if name in birthdays:
@@ -26,10 +26,9 @@ while choice != 10:
     elif choice == 4:
          name= input('Enter a name: ')
          if name in birthdays:
-             del birthdays[name] #(3)
+             del birthdays[name]
          else :
              print('That name is not found.')
     
     elif choice == 5:
-        
-          print(birthdays) #(4)          
+          print(birthdays)       
