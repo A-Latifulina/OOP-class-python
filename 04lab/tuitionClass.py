@@ -1,5 +1,3 @@
-# tuition problem
-
 count_one = 0
 count_two = 0
 count_three = 0
