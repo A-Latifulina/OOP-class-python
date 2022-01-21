@@ -1,10 +1,4 @@
-#working with strings
-#This program counts the number of times
-#the letter T  or t   appears in a string
-
-
 my_string = input('Enter a sentence ')
-
 count = 0
 
 for ch in my_string:
