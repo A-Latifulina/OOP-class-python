@@ -1,6 +1,6 @@
 def calc_average():
     test_scores = []
-    print('Enter test scores ')
+    print('Enter test scores: ')
     for i in range(0, 5):
         score = int(input())
         test_scores.append(score)
