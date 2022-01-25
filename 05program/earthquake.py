@@ -8,8 +8,8 @@ for line in earthquake_file:
     magnitude.append(values[0])
     location.append(values[6])
 
-print('The magnitude list is', magnitude)\n
-print('The location list is', location)
+print('The magnitude list is ', magnitude)\n
+print('The location list is ', location)
 
 def average_magnitude():
     sum = 0
@@ -22,5 +22,4 @@ def average_magnitude():
 average_magnitude()
 
 print ('The max magnitude was', max(magnitude))
-
 print ('The list of sorted locations is ', sorted(location))
