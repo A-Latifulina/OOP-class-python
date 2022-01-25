@@ -1,5 +1,3 @@
-#Part A, B, & extra credit
-
 baseball_data = open('baseball_finals.txt')
 
 series_year = {}
