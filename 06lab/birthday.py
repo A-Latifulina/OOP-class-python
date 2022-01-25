@@ -37,7 +37,7 @@ print('5 to print the book')
 
 choice = 0
 while choice != 10:
-    choice = int ( input('Enter choice '))
+    choice = int ( input('Enter choice'))
     if choice == 1:
         search()
     elif choice == 2:
