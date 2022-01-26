@@ -1,11 +1,11 @@
-student_grades = {}  # Create an empty dict
+student_grades = {}
 grade_prompt = "Enter name and grade (Ex. 'Bob A+'):"
 menu_prompt = ("1. Add/modify student grade\n"
                 "2. Delete student grade\n"
                 "3. Print student grades\n"
                 "4. Quit\n")
 
-while True:  # Exit when user enters no input
+while True:
     command = input(menu_prompt).lower().strip()
     if command == '1':
         name, grade = input(grade_prompt).split()
