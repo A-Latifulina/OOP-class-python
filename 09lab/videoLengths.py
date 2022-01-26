@@ -1,7 +1,5 @@
-# This program reads the values in the video_times.txt file and calculates their total
-
 def read_file():
-    video_file = open ( 'video_times.txt')
+    video_file = open ('video_times.txt')
     return video_file
 
 def print_videos(video_file):
