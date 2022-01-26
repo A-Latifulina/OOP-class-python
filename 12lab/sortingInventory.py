@@ -27,7 +27,6 @@ def sort(first_list, second_list):
                 
         swap(first_list,second_list,i,minSubscript )
                 
-                
 inventory_file = open('inventory.txt')
 book_list = []
 quantity_list = [] 
@@ -41,14 +40,12 @@ for i in range(len(book_list)):
     print(book_list[i]+ '   ' ,   quantity_list[i] )#(7)
 
 print()
-
 sort(book_list, quantity_list) #(8)
 print('after the sort' ) 
 
 for i in range(len(book_list)):
     print(book_list[i]+ '   ' ,  ( quantity_list[i]) )
     
-#Task 5
 print ( )
 print('For the search') 
 subscript = search ('Python', book_list)
