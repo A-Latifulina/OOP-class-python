@@ -10,7 +10,7 @@ def getInfo():
    first = input('Enter your first name ')
    last = input('enter your last name ')
    idnumber = input ('Enter your student ID number ')
-   print ('Your system log in name is ')
+   print ('Your system log in name is: ')
    print (get_login_name(first, last, idnumber))
 
 # main
