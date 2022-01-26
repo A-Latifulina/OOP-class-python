@@ -20,11 +20,9 @@ class Seat:
     def print_seat(self):
         print('%s %s, Paid: %.2f' % (self.first_name, self.last_name, self.paid))
 
-
 def make_seats_empty(seats):
     for s in seats:
         s.make_empty()
-
 
 def print_seats(seats):
     for s in range(len(seats)):
@@ -56,9 +54,7 @@ for line in fhand:
            if not available_seats[seat_num].is_empty():
               print('Seat not empty')
            else:
-            
             fname = values[2]
-            
             lname = values[3]
             paid =float (  values[4])
             available_seats[seat_num].reserve(fname, lname, paid)
