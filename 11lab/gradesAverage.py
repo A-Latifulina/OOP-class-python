@@ -6,11 +6,9 @@ student_grades = {
     'Tricia': [99, 92, 95, 89, 99]
     }
 
-
 average_list = [ ] 
-name_list = list(student_grades.keys())  # We are saving the names for the dictionary in a separate list
+name_list = list(student_grades.keys())
 print(name_list)
-# the following creates an average for each student and places the average for each student in an average_list ( a parallel list to names) 
 for i in range (5) :
     print (name_list[i], '   ', student_grades[name_list[i]] )
     average = sum(student_grades[name_list[i]])/len(student_grades[name_list[i]] )
@@ -19,18 +17,14 @@ for i in range (5) :
 print( 'The two parallel lists, name and average') 
 for i in range(len(name_list)):
     print (name_list[i], '   ', average_list[i] )
-                                                                         
-# this figures out the  average for best student  , name and average 
 
 maximum = max(average_list)
 print ('The maximum average is ', maximum )
-#But we need to go back and figure out which student has that average.  
 for i in range (5):
     if average_list[i] == maximum:
         print ( name_list[i] , 'has the highest average of    ', average_list[i] ) 
     
 print ('Figuring out the average for each test grade over all the students')     
-# to figure out the average for each assignment you need to have the two-dimensional idea
 average_assignment_grade = [ ]
 grades= [ [0,0,0,0,0],
           [0,0,0,0,0],
@@ -39,12 +33,8 @@ grades= [ [0,0,0,0,0],
           [0,0,0,0,0]
           ]
 
-
 for row in range (5):
-    
         grades[row] = student_grades[name_list[row]  ] 
-        #print ('row is ', row)
-        #print (grades[row])
 
 print (grades) 
 
