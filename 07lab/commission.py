@@ -30,9 +30,7 @@ for i in range(3):
     get_sales()
 
 advanced_pay()
-
 determine_comm_rate()
-
 pay = monthly_sales * rate - advanced_pay
 
 print ('The pay is $ %.2f' % pay)
